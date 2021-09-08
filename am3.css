@@ -1,0 +1,75 @@
+/* This part should apllyed to just Headers */
+
+h1 {
+ color: #ffffff;
+ background-color: #ff0000;
+}
+
+h2 {
+ color: #0053FD;
+ background-color: #FDA300;
+}
+
+h3 {
+ color: #00ff00;
+ background-color: #0000ff;
+}
+
+p {
+ color: #00ff00;
+ background-color: #ff0000;
+}
+
+
+/* This part should be span and div */
+.CTK {
+ color: #ffffff;
+ background-color: #7933FF;
+}
+
+.ff {
+ color: #DF33FF;
+}
+
+#hours {
+  color: #33FF7E;
+  background-color: #33B4FF;
+ }
+
+
+/* This part should be ids and classes */
+
+.headerlblue {
+ color: #000000;
+ background-color: #33FDFF;
+}
+
+.headerlgreen {
+ color: #000000;
+ background-color: #91F07F;
+}
+
+#admission {
+  color: #FFE933;
+ background-color: #9B33FF;
+}
+
+#graphics {
+   color: #FFFFFF;
+  background-color: #000000;
+}
+
+/* This part should be links */
+a {
+ color: #ff0000;
+ text-decoration: none;
+}
+
+a:hover {
+ color: #ffff00;
+ text-decoration: underline;
+}
+
+a:visited {
+ color: #00ff00;
+}
