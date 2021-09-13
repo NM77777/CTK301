@@ -1,0 +1,63 @@
+/* First pargraph should be a darkblue*/
+
+h1 {
+ color: #ffffff;
+
+}
+
+#db {
+  background-color: #540eeb;
+ }
+
+ a {
+  color: #19c249;
+text-decoration: none;
+ }
+
+ /* Second pargraph should be blue. */
+ h2 {
+color: #0000ff;
+
+ }
+
+ .orange {
+  color: #f58e07;
+
+ }
+
+
+ /* Third pargraph should be red */
+ h3 {
+
+  background-color: #ffff00;
+ }
+
+ #red {
+   color: #ff0000;
+
+  }
+
+  /* Fourth pargraph should be green */
+
+  h4 {
+   color: #ffff00;
+   background-color: #037020;
+  }
+
+  #green {
+
+    background-color: #0bbf59;
+
+   }
+
+   /*Pargraph 5 should be orange */
+   h5 {
+    color: #440096;
+
+   }
+
+
+   .orange {
+    color: #f58e07;
+
+   }
