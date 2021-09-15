@@ -1,0 +1,46 @@
+/* Makes all text sans-serif */
+
+
+.sans-serf {
+  font-family: sans-serif;
+
+}
+
+/* Makes a paragraph centered */
+
+.center {
+text-align: center;
+
+}
+
+/* Makes a paragraph justify */
+.justify{
+
+text-align: justify;
+
+}
+
+/* This effects the just headers */
+
+h1, h2, h3 {
+ color: #FFA500;
+ font-style: italic;
+ font-weight: normal;
+
+}
+
+
+/* This effects the just images */
+
+.box
+{
+border: 10px solid #000000;
+padding: 20px;
+background-color: #ffffff;
+}
+
+body{
+
+background-image: url(book.jpeg)
+
+}
