@@ -1,0 +1,135 @@
+body {
+  background-color: #999;
+}
+
+/* This is the wrapper that goes around every thing*/
+#wrapper {
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  border: 5px solid #00479F;
+  background-color: #ffffff;
+}
+
+/* This should effect just h1*/
+
+/* This has the werid bug where if you remove the border it takes off the top part of the color gradient background. It's the header tag.*/
+
+
+header {
+  border: 1px solid #00479F;
+}
+
+h1 {
+  color: #65CDFF;
+  text-decoration: none;
+  padding-left: 10px;
+  margin-left: 15px;
+  font-family: Arial;
+  font-size: 35px;
+
+
+}
+
+h1 a{
+  text-decoration: none;
+  font-style: italic;
+}
+
+h1 a:visited{
+  color: #65CDFF;
+}
+
+h1 a:hover{
+  text-decoration: underline;
+  color: #D01E00;
+}
+
+/* This should effect just navagation*/
+nav {
+  border-bottom: 5px solid #00479F;
+  padding: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  width: 200px;
+  display: inline-block;
+  margin: 1em 1em 1em 0;
+}
+
+nav li a {
+  display: block;
+  background-image: linear-gradient(to top, #0054ad, #015eb8, #0167c3, #0271ce, #027bd9);
+  padding: 1em;
+  color: #65CDFF;
+  text-decoration: none;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  width: 170px;
+}
+
+nav li a:hover{
+  background-image: linear-gradient(to bottom, #0054ad, #015eb8, #0167c3, #0271ce, #027bd9);
+}
+
+
+/* This should effect the background color of header and nav*/
+#backc {
+  background-image: linear-gradient(to top, #0054ad, #015eb8, #0167c3, #0271ce, #027bd9);
+}
+
+/* This should effect just h2*/
+h2 {
+  border-bottom: 3px solid #00479F;
+  color: #00479F;
+  margin: 15px;
+}
+
+/* This should effect just the image in h2*/
+main img {
+  float: left;
+  border: 5px solid #00479F;
+  margin: 10px;
+}
+
+/* This should effect just the page info*/
+.bold {
+  text-align: justify;
+  font-weight: bold;
+}
+
+/* This should effect just the page info space*/
+p {
+  margin: 15px;
+
+}
+
+/* This should effect just the links in the page*/
+.red{
+  font-weight: bold;
+  color:#D01E00;
+  text-decoration: none;
+}
+
+.red:hover{
+  color: #00479F;
+  text-decoration: underline;
+}
+
+/* This should effect just the footer*/
+footer {
+  border-top: 5px solid #00479F;
+  padding: 0;
+  background-color: #D01E00;
+}
+footer img{
+  margin: 15px;
+  margin-left: 30px;
+}
