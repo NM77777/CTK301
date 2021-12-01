@@ -1,0 +1,172 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #000;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+
+}
+
+/* style for dummy columns, delete and replace with your own CSS */
+.dummycolumn {
+  background-color: rgba(255,0,0,.25);
+  grid-column: span 1;
+}
+
+
+/* This should just effect the Header */
+
+header{
+  grid-column: span 12;
+  border: 2px solid #fff;
+  padding: 0;
+}
+
+ h1{
+   grid-column: span 12;
+   padding: 0px;
+   margin: 0px;
+   text-align: center;
+   font-size: 70px;
+   color: #fff;
+ }
+
+ /* This should just effect the navagation */
+
+ nav {
+   grid-column: span 3;
+   padding: 1em;
+   border: 2px solid #fff;
+   text-align: center;
+   margin-top: 20px;
+
+
+ }
+
+ nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+
+ }
+
+ nav li {
+   width: 200px;
+   display: inline-block;
+   margin: 1em 1em 1em 0;
+ }
+
+ nav li a {
+   display: block;
+   background-color: red;
+   border: 1px solid black;
+   padding: 1em;
+   color: white;
+   text-decoration: none;
+   font-size: 20px;
+   border-radius: 20px;
+ }
+
+ .o{
+   background-color: #F79003;
+ }
+
+ .g{
+   background-color: #14FF00;
+ }
+
+ .b{
+   background-color: #004EFF;
+ }
+
+ /* This should just effect the main image */
+
+ /* #mainimage{
+   grid-column: span 9;
+   border: 2px solid #fff;
+  margin-top: 20px;
+  margin-left: 50px;
+ }
+
+ #mainimage img{
+   width: 100%;
+ } */
+
+ .carousel {
+   color: #170724;
+
+   --carousel-button-bg: #fff;
+   --carousel-button-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0
+           0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+
+   --carousel-button-svg-width: 20px;
+   --carousel-button-svg-height: 20px;
+   --carousel-button-svg-stroke-width: 2.5;
+
+grid-column: span 9;
+    border: 1px solid white;
+    margin-top: 30px;
+
+ }
+
+ #myCarousel.carousel__slide {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   width: 80%;
+   height: 600px;
+   margin-right: 6px;
+   background-color: #eee;
+   border-radius: 6px;
+
+ }
+
+ .carousel__slide img{
+   width: 100%;
+   margin-top: 10px;
+ }
+
+ /* This should just effect the article */
+
+main{
+  grid-column: span 11;
+  margin-left:350px;
+
+}
+
+article{
+  border: 1px solid black;
+
+
+}
+
+article h2{
+  font-size: 30px;
+  border-bottom: 5px solid #004EFF;
+  color: #004EFF;
+
+
+}
+
+article p{
+  border: 2px solid #fff;
+color: #fff;
+margin-top: 15px;
+padding: 5px;
+
+}
+
+/* This should just effect the footer */
+footer{
+  color: #fff;
+  grid-column: span 11;
+  margin-left: 650px;
+}
