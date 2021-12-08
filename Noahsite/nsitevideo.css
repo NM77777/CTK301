@@ -1,0 +1,179 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #000;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+/* style for dummy columns, delete and replace with your own CSS */
+.dummycolumn {
+  background-color: rgba(255,0,0,.25);
+  grid-column: span 1;
+}
+
+
+/* This should just effect the Header */
+
+header{
+  grid-column: span 12;
+  border: 2px solid #fff;
+  padding: 0;
+}
+
+ h1{
+   grid-column: span 12;
+   padding: 0px;
+   margin: 0px;
+   text-align: center;
+   font-size: 70px;
+   color: #14FF00;
+
+ }
+
+ /* This should just effect the navagation */
+
+ nav {
+   grid-column: span 3;
+   padding: 1em;
+   border: 2px solid #fff;
+   text-align: center;
+   margin-top: 20px;
+
+
+ }
+
+ nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+
+ }
+
+ nav li {
+   width: 200px;
+   display: inline-block;
+   margin: 1em 1em 1em 0;
+ }
+
+ nav li a {
+   display: block;
+   background-color: red;
+   border: 1px solid black;
+   padding: 1em;
+   color: white;
+   text-decoration: none;
+   font-size: 20px;
+   border-radius: 20px;
+ }
+
+ .r{
+   background-color: red;
+   transition: background-color 1.0s, width 2.0s, color 2.0s;
+ }
+
+ .r:hover{
+   background-color: white;
+   color: black;
+ }
+
+ .o{
+   background-color: #F79003;
+   transition: background-color 1.0s, width 2.0s, color 2.0s;
+ }
+
+ .o:hover{
+   background-color: white;
+   color: black;
+ }
+
+ .g{
+   background-color: #14FF00;
+   transition: background-color 1.0s, width 2.0s, color 2.0s;
+ }
+
+ .g:hover{
+   background-color: white;
+   color: black;
+ }
+
+ .b{
+   background-color: #004EFF;
+   transition: background-color 1.0s, width 2.0s, color 2.0s;
+ }
+
+ .b:hover{
+   background-color: white;
+   color: black;
+ }
+
+ /* This should just effect the main image */
+ #mainimage {
+   grid-column: span 8;
+   border: 2px solid #fff;
+  width: 750px;
+  margin-top: 20px;
+  margin-left: 50px;
+
+ }
+
+ /* This should just effect the article */
+
+main{
+  grid-column: span 11;
+  margin-left:350px;
+
+}
+
+article{
+  border: 1px solid black;
+
+
+}
+
+article h2{
+  font-size: 30px;
+  border-bottom: 5px solid #14FF00;
+  color: #14FF00;
+  /* font-family: 'Pirata One', cursive; */
+  /* box-shadow: 10px 10px 10px #666; /* x, y, blur, color */
+
+
+}
+
+article p{
+  border: 2px solid #fff;
+color: #fff;
+margin-top: 15px;
+padding: 5px;
+/* font-family: 'Pirata One', cursive; */
+/* box-shadow: 10px 10px 10px #666; /* x, y, blur, color */
+
+}
+
+/* This should just effect the footer */
+footer{
+  color: #fff;
+  grid-column: span 11;
+  margin-left: 650px;
+}
+
+bi-snapchat{
+  font-size: 50px;
+  border: 1px solid white;
+
+
+}
+
+bi-snapchat:hover{
+  color: #fff;
+}
